@@ -1,0 +1,73 @@
+############################
+# .NET Build Artifacts
+############################
+bin/
+obj/
+TestResults/
+*.user
+*.suo
+*.cache
+*.ide
+
+############################
+# Avalonia XAML Compilation Cache
+############################
+*.g.cs
+*.g.fs
+*.axaml.cs
+*.axaml.fs
+*.axaml.g.cs
+*.axaml.g.fs
+
+############################
+# VS Code
+############################
+.vscode/
+.history/
+*.code-workspace
+
+############################
+# JetBrains Rider
+############################
+.idea/
+*.sln.iml
+
+############################
+# Build & Logs
+############################
+*.log
+*.vs/
+*.ncrunch*
+
+############################
+# macOS
+############################
+.DS_Store
+
+############################
+# Windows
+############################
+Thumbs.db
+desktop.ini
+
+############################
+# Other tooling
+############################
+global.json.lock
+*.dbmdl
+*.pdb
+
+############################
+# NuGet
+############################
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+############################
+# F# Interactive / Script
+############################
+*.fsx.lock
+*.fsproj.user
+

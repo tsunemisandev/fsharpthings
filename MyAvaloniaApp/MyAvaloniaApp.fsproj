@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <ImplicitUsings>false</ImplicitUsings>
+    <TargetFrameworks>net9.0</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Domains\Counter\Model.fs" />
+    <Compile Include="Domains\Counter\Msg.fs" />
+    <Compile Include="Domains\Counter\State.fs" />
+    <Compile Include="Domains\Counter\View.fs" />
+    <Compile Include="Domains\Todo\Model.fs" />
+    <Compile Include="Domains\Todo\Msg.fs" />
+    <Compile Include="Domains\Todo\State.fs" />
+    <Compile Include="Domains\Todo\View.fs" />
+    <Compile Include="Main\MainModel.fs" />
+    <Compile Include="Main\MainMsg.fs" />
+    <Compile Include="Main\MainUpdate.fs" />
+    <Compile Include="Main\MainView.fs" />
+    <Compile Include="MainWindow.fs" />
+    <Compile Include="App.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia.FuncUI" Version="1.5.1" />
+    <PackageReference Include="Avalonia.Desktop" Version="11.3.0" />
+    <PackageReference Include="Avalonia.FuncUI.Elmish" Version="1.5.1" />
+    <PackageReference Include="Avalonia.Themes.Fluent" Version="11.3.0" />
+  </ItemGroup>
+</Project>
